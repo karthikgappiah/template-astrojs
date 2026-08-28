@@ -1,0 +1,10 @@
+// NAME: Visual Studio Code Extensions Recommendations
+// PATH: /.vscode/extensions.json
+
+{
+	"recommendations": ["biomejs.biome"],
+	"unwantedRecommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint"
+	]
+}
