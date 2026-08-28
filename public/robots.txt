@@ -1,0 +1,5 @@
+# NAME: Robots
+# PATH: /public/robots.txt
+
+User-agent: *
+Allow: /
