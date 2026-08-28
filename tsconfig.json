@@ -1,0 +1,13 @@
+// NAME: TypeScript Configuration
+// PATH: /tsconfig.json
+
+{
+	"extends": "astro/tsconfigs/base",
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"jsx": "react-jsx",
+		"jsxImportSource": "react"
+	}
+}
