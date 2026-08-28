@@ -4,7 +4,8 @@
 {
 	"json.schemaDownload.trustedDomains": {
 		"https://biomejs.dev/schemas/2.5.11/schema.json": true,
-		"https://json.schemastore.org/lefthook.json": true
+		"https://json.schemastore.org/lefthook.json": true,
+		"https://ui.shadcn.com/schema.json": true
 	},
 	"editor.defaultFormatter": "biomejs.biome",
 	"editor.formatOnSave": true,

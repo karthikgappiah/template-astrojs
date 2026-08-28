@@ -2,7 +2,11 @@
 // PATH: /.vscode/extensions.json
 
 {
-	"recommendations": ["biomejs.biome", "astro-build.astro-vscode"],
+	"recommendations": [
+		"biomejs.biome",
+		"astro-build.astro-vscode",
+		"bradlc.vscode-tailwindcss"
+	],
 	"unwantedRecommendations": [
 		"esbenp.prettier-vscode",
 		"dbaeumer.vscode-eslint"

@@ -2,11 +2,14 @@
 // NAME: Landing Page
 // PATH: /src/pages/index.astro
 
+import { Button } from "@/components/ui/button";
 import Layout from "../layouts/layout.astro";
 ---
 
 <Layout title="Home | Astro.js Template">
-	<h1>Hello, client!</h1>
+	<h1>
+		<Button>Hello, client!</Button>
+	</h1>
 </Layout>
 <style>
 h1 {
