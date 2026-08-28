@@ -2,14 +2,12 @@
 // NAME: Landing Page
 // PATH: /src/pages/index.astro
 
-console.log("Hello, server!");
+import Layout from "../layouts/layout.astro";
 ---
 
-<html lang="en">
-	<body>
-		<h1>Hello, client!</h1>
-	</body>
-</html>
+<Layout title="Home | Astro.js Template">
+	<h1>Hello, client!</h1>
+</Layout>
 <style>
 h1 {
 	color: blue;

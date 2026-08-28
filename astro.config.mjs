@@ -1,6 +1,11 @@
 // NAME: Astro Configuration
 // PATH: /astro.config.mjs
 
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 
-export default defineConfig({});
+export default defineConfig({
+	vite: {
+		plugins: [tailwindcss()],
+	},
+});
